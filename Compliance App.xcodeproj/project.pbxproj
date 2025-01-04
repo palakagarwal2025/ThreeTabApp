@@ -14,6 +14,10 @@
 		549068152CF81D130082BAAC /* Compliance_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549068142CF81D130082BAAC /* Compliance_AppTests.swift */; };
 		5490681F2CF81D130082BAAC /* Compliance_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5490681E2CF81D130082BAAC /* Compliance_AppUITests.swift */; };
 		549068212CF81D130082BAAC /* Compliance_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549068202CF81D130082BAAC /* Compliance_AppUITestsLaunchTests.swift */; };
+		549068302CF81D980082BAAC /* NIST53Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5490682F2CF81D980082BAAC /* NIST53Page.swift */; };
+		549068322CF81DB40082BAAC /* ControlFamilyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549068312CF81DB40082BAAC /* ControlFamilyDetailView.swift */; };
+		549068342CF81DCA0082BAAC /* NIST171Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549068332CF81DCA0082BAAC /* NIST171Page.swift */; };
+		549068362CF81E010082BAAC /* CIS18Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549068352CF81E010082BAAC /* CIS18Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		5490681A2CF81D130082BAAC /* Compliance AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Compliance AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5490681E2CF81D130082BAAC /* Compliance_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compliance_AppUITests.swift; sourceTree = "<group>"; };
 		549068202CF81D130082BAAC /* Compliance_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compliance_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5490682F2CF81D980082BAAC /* NIST53Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIST53Page.swift; sourceTree = "<group>"; };
+		549068312CF81DB40082BAAC /* ControlFamilyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFamilyDetailView.swift; sourceTree = "<group>"; };
+		549068332CF81DCA0082BAAC /* NIST171Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIST171Page.swift; sourceTree = "<group>"; };
+		549068352CF81E010082BAAC /* CIS18Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIS18Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				549068052CF81D120082BAAC /* ContentView.swift */,
 				549068072CF81D130082BAAC /* Assets.xcassets */,
 				549068092CF81D130082BAAC /* Preview Content */,
+				5490682F2CF81D980082BAAC /* NIST53Page.swift */,
+				549068312CF81DB40082BAAC /* ControlFamilyDetailView.swift */,
+				549068332CF81DCA0082BAAC /* NIST171Page.swift */,
+				549068352CF81E010082BAAC /* CIS18Page.swift */,
 			);
 			path = "Compliance App";
 			sourceTree = "<group>";
@@ -258,6 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				549068062CF81D120082BAAC /* ContentView.swift in Sources */,
+				549068362CF81E010082BAAC /* CIS18Page.swift in Sources */,
+				549068322CF81DB40082BAAC /* ControlFamilyDetailView.swift in Sources */,
+				549068342CF81DCA0082BAAC /* NIST171Page.swift in Sources */,
+				549068302CF81D980082BAAC /* NIST53Page.swift in Sources */,
 				549068042CF81D120082BAAC /* Compliance_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,25 +10,6 @@ import SwiftUI
 
 struct NIST53Page: View {
     // Unique control families extracted from the full list
-    let controlFamilies = [
-        "Access Control (AC)",
-        "Awareness and Training (AT)",
-        "Audit and Accountability (AU)",
-        "Assessment, Authorization, and Monitoring (CA)",
-        "Configuration Management (CM)",
-        "Contingency Planning (CP)",
-        "Identification and Authentication (IA)",
-        "Incident Response (IR)",
-        "Maintenance (MA)",
-        "Media Protection (MP)",
-        "Physical and Environmental Protection (PE)",
-        "Planning (PL)",
-        "Program Management (PM)",
-        "Personnel Security (PS)",
-        "Risk Assessment (RA)",
-        "System and Communications Protection (SC)",
-        "System and Information Integrity (SI)"
-    ]
     
     let columns = [GridItem(.flexible()), GridItem(.flexible())] // Two-column layout
     
@@ -36,9 +17,9 @@ struct NIST53Page: View {
         ScrollView {
             LazyVGrid(columns: columns, spacing: 20) {
                 ForEach(controlFamilies, id: \.self) { family in
-                    NavigationLink(destination: ControlFamilyDetailView(familyName: family)) {
+                    NavigationLink(destination: ControlFamilyDetailView(family: family)) {
                         VStack {
-                            Text(family)
+                            Text(family.name)
                                 .font(.headline)
                                 .multilineTextAlignment(.center)
                                 .foregroundColor(.white)

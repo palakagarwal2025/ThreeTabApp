@@ -1,4 +1,5 @@
 import SwiftUI
+import WebKit
 struct ControlDetailView: View {
     let control: Control
     @State private var webViewHeight: CGFloat = 1
@@ -84,5 +85,10 @@ struct ControlDetailView: View {
             .padding()
         }
         .navigationTitle("Control Detail")
+        .onDisappear {
+                  print("Cleaning up web view...")
+                  webViewHeight = 0
+              }
+       
     }
 }
